@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+git init
+Creates a .git file in the directory (an empty repo).Commits still req'd to save anything!  
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area asks as an intermediary between your working directory and the repo.
+git init
+git add <specific files you want to add from your working directory). 

@@ -1,0 +1,37 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+diff -u <new_file> <old_file>
+
+This command allows you to quickly see which lines of a file have changed between iterations. Assuming your code is well organized, spotting an error is much quicker after isolating the changes to a file. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having access to the entire change history allows easy reversion to working code
+in the event a bug is introduced.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Choosing when to save via commits allows each logical checkpoint in the code to be captured. When comparing files or reverting changes, it is easier to work
+with deliberate commits. 
+
+Auto-saving means non-working code that is in the process of being edited may be captured. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git saves multiple files in a single commit because finished code projects often involve multiple files. Programs like Google Docs, on the other hand, save files separately because they are designed to be general use text-editors. In this domain, most projects will be complete with only one file
+.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Inside a repo, use git log to view all commits (don't forget to scroll down).
+The newest commits will be at the top. 
+
+Use git diff <id1> <id2> to see a detailed comparison between two commits. 
+
+How might using version control make you more confident to make changes that could break something?
+
+Version control tracks a group of files complete change history. If mistakes are
+introduced, code can easily be reverted to a previous version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I plan to use version control while building my first production Android App. 
