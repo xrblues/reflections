@@ -13,4 +13,10 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 The staging area allows you to chose which files are included in a commit. 
 If you've made multiple complex changes to the working directory, 
-you can commit changes separately. 
+you can commit changes separately.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are helpful for testing experimental features without altering
+the master codebase (not good for things like bug fixes, doc revamps,
+or feature improvements).
