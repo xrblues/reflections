@@ -7,4 +7,10 @@ How is the staging area different from the working directory and the repository?
 
 The staging area asks as an intermediary between your working directory and the repo.
 git init
-git add <specific files you want to add from your working directory). 
+git add <specific files you want to add from your working directory).
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area allows you to chose which files are included in a commit. 
+If you've made multiple complex changes to the working directory, 
+you can commit changes separately. 
