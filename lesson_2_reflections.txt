@@ -20,3 +20,9 @@ What are some situations when branches would be helpful in keeping your history 
 Branches are helpful for testing experimental features without altering
 the master codebase (not good for things like bug fixes, doc revamps,
 or feature improvements).
+
+How do the diagrams help you visualize the branch structure?
+Diagrams allow you to easily see which commits are associated with a 
+particular branch. It is important to work on the 'tip' of branches for 
+reachability. Careful attention to structure makes merging branches easier
+in the future. 
