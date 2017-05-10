@@ -26,3 +26,10 @@ Diagrams allow you to easily see which commits are associated with a
 particular branch. It is important to work on the 'tip' of branches for 
 reachability. Careful attention to structure makes merging branches easier
 in the future. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Branches allow multiple featuers to be built out separately from the production
+code. When branches are merged, file states are combined to represent changes
+on both branches. 
+
