@@ -33,3 +33,9 @@ Branches allow multiple featuers to be built out separately from the production
 code. When branches are merged, file states are combined to represent changes
 on both branches. 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is obviously faster than manually merging, however, it comes at a cost to accuracy. When automating the combination of code multiple people
+have written, you're bound to run into problems from time to time. Manual merge is much more accurate, but requires significantly more time and effort
+from the end user. 
+
