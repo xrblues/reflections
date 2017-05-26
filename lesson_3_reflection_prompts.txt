@@ -3,3 +3,7 @@ When would you want to use a remote repository rather than keeping all your work
 Remote repositories are key to enable collaboration. If multiple people are working on a project, they need a centralized repo
 to work with. Remote repos also enable the developer to share their work (without exposing files/features that aren't ready to be
 seen by the public!)
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+If multiple people are working on a project, you may not want to pull all changes to the remote down at a given moment. Similarly, automatic pushing could mean half-baked features are made public before they are ready for production. Manual push/pull empowers the developer to make changes to a group project locally without heavy coordination with team members
