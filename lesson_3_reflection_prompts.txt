@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Remote repositories are key to enable collaboration. If multiple people are working on a project, they need a centralized repo
+to work with. Remote repos also enable the developer to share their work (without exposing files/features that aren't ready to be
+seen by the public!)
