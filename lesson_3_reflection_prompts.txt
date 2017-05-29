@@ -21,3 +21,7 @@ What is the benefit of having a copy of the last known state of the remote store
 Having a local copy lets you easily compare your local changes to the repo.
 This also provides an easy way to see what changes have been introduced to
 the repo since the your last pull.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without Git[hub], collaboration would require coordinating smaller changes to a master file. I would be walking on egg shells during the entire development process worried I were going to break the master files.
