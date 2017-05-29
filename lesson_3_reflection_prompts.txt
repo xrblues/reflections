@@ -25,3 +25,10 @@ the repo since the your last pull.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Without Git[hub], collaboration would require coordinating smaller changes to a master file. I would be walking on egg shells during the entire development process worried I were going to break the master files.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When a change is significant (has a high propensity to break the master
+branch) it is wise to use a separate branch. If a change is minor, it may
+make more sense to work directly in master to avoid the overhead of merging
+the branches later. 
