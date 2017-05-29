@@ -16,3 +16,8 @@ Branch: Create multiple restore paths in a repos history; useful for testing
 experimental features as well as creating multiple versions of a repo (e.g. A 
 Spanish edition of your app)
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Having a local copy lets you easily compare your local changes to the repo.
+This also provides an easy way to see what changes have been introduced to
+the repo since the your last pull.
